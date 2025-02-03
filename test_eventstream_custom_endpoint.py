@@ -9,13 +9,13 @@
 # 
 # Before running the code, make sure to update the **connection_str** and **eventhub_name** variables with your own values. Replace **connection_str** with the primary connection string (the "Connection string-primary key") from your Evenstream settings, and set **eventhub_name** to your Evenstream's Event Hub name.
 
-# In[9]:
+# In[ ]:
 
 
 get_ipython().system('pip install azure-eventhub')
 
 
-# In[10]:
+# In[ ]:
 
 
 import time
@@ -24,7 +24,7 @@ import random
 from azure.eventhub import EventHubProducerClient, EventData
 
 
-# In[11]:
+# In[ ]:
 
 
 # *** MODIFY THESE VARIABLES WITH YOUR OWN VALUES ***
@@ -36,7 +36,7 @@ eventhub_name = "YOUR_EVENTHUB_NAME_HERE"
 # *** END OF MODIFICATIONS ***
 
 
-# In[12]:
+# In[ ]:
 
 
 # Create the Event Hub Producer client
